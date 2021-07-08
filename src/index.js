@@ -5,13 +5,10 @@ import App from './components/app';
 //import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+import Product from './components/product';
+import Order from './components/createOrder';
+
+ReactDOM.render(<Order/>,document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
