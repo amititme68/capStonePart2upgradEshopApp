@@ -151,9 +151,6 @@ export default function Product() {
           </IconButton>
       </CardActions>
     </Card>
-
-
-
     </div> 
    </div>
   );
